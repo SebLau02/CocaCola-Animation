@@ -1,5 +1,3 @@
-# Cocacola-Animation avialable : 
-
 # Coca-cola Animation
 
 ## Fr 

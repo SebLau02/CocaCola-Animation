@@ -5,21 +5,27 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+/** {
+	box-shadow: 0 0 0 3px red inset;
+}*/
+html {
+	font-size: 62.5%;
+}
 body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	background: linear-gradient(-135deg, #292929, #1b1b1b);
 	width: 100vw;
-	height: 100vh;
-	overflow: hidden;
+	min-height: 100vh;
 }
 .global-container {
-	max-width: 600px;
-	max-height: 600px;
-	width: 100%;
-	height: 100%;
-	border-radius: 60px;
+	min-width: 178px;
+	min-height: 178px;
+	width: 39vw;
+	height: 39vw;
+	border-radius: 10%;
 	position: relative;
 	display: flex;
 	align-items: center;
@@ -28,10 +34,10 @@ body {
 }
 
 .coca-cola-text {
-	width: 180%;
+	width: 179%;
 }
 .coca-cola-image {
-	width: 189px;
+	width: 30%;
 	position: absolute;
 	top: 50%;
 	left: 100%;
@@ -53,14 +59,14 @@ body {
 	opacity: 0;
 }
 .click-btn {
-	width: 80px;
-	height: 25px;
+	width: 16%;
+	height: 9%;
 	position: absolute;
-	top: 90%;
-	left: 83%;
+	top: 87%;
+	left: 81%;
 	opacity: 0;
 }
-.click-btn:hover{
+.click-btn:hover {
 	cursor: url(assets/cursor.png), pointer;
 }
 .description {
@@ -68,14 +74,14 @@ body {
 	left: 5%;
 	color: white;
 	font-family: sans-serif;
-	width: 150px;
+	width: 27%;
 }
 .taste {
-	font-size: 20px;
-	margin-bottom: 20px;
+	font-size: clamp(0.8rem, 1vw, 2rem);
+	margin-bottom: 1vw;
 }
 .detail {
-	font-size: 12px;
+	font-size: clamp(0.4rem, 1vw, 1.2rem);
 }
 .description-in {
 	top: 78%;

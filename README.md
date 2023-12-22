@@ -12,7 +12,7 @@ Animation de boisson coca-cola.
 Petit projet d'intégration d'une maquette figma trouvé sur dribble. Projet réalisé en toute détente et simplicité et pour pratiquer un peut le CSS.
 Il a été réalisé en simple HTML, CSS et JavaScript.
 
-Pour voir ce que ça donne c'est [ici](https://seblau02.github.io/Cocacola-Animation/)
+Je vous laisse le découvrir [ici](https://seblau02.github.io/Cocacola-Animation/)
 
 ## En
 
